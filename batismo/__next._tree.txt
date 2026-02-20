@@ -1,0 +1,2 @@
+:HL["/batismo-quantico-next/_next/static/chunks/4d265a9a5502c431.css","style"]
+0:{"buildId":"gga82-8nOHntSQbiyTwTM","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"batismo","paramType":null,"paramKey":"batismo","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
