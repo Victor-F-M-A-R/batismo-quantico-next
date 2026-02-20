@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "deploy:vercel:preview": "vercel",
+    "deploy:vercel:prod": "vercel --prod"
   },
   "dependencies": {
     "@react-three/drei": "^10.7.7",

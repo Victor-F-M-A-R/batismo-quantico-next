@@ -8,11 +8,15 @@ const repoName = 'batismo-quantico-next';
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  output: 'export',
-  trailingSlash: true,
-  images: {
-    unoptimized: true,
-  },
+  ...(isGithubActions
+    ? {
+        output: 'export',
+        trailingSlash: true,
+        images: {
+          unoptimized: true,
+        },
+      }
+    : {}),
   basePath: isGithubActions ? `/${repoName}` : '',
   assetPrefix: isGithubActions ? `/${repoName}/` : undefined,
   turbopack: {
