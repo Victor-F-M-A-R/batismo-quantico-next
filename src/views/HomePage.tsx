@@ -8,7 +8,7 @@ import DivineAuroraBg from '../components/hero/DivineAuroraBg';
 const CONCEPTS = [
   {
     icon: 'â—¯',
-    title: 'ConsciÃªncia',
+    title: 'Consciência',
     description:
       'O primeiro passo Ã© olhar para dentro. Reconhecer as arestas, as imperfeiÃ§Ãµes â€” e aceitar que a transformaÃ§Ã£o Ã© possÃ­vel.',
   },
@@ -42,7 +42,7 @@ export default function HomePage() {
           >
             <div className="w-12 h-px bg-accent-gold/30" />
             <span className="text-accent-gold/50 text-xs font-cinzel tracking-[0.4em]">
-              âˆ´
+              ∴
             </span>
             <div className="w-12 h-px bg-accent-gold/30" />
           </motion.div>
