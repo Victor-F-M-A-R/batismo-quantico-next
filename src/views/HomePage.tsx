@@ -66,7 +66,7 @@ export default function HomePage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
           >
-            Uma jornada de 21 dias para a consciÃªncia EU SOU.
+            Uma jornada de 21 dias para a consciência EU SOU.
           </motion.p>
 
           {/* CTA Buttons */}
