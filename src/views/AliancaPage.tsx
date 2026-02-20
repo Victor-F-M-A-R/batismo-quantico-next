@@ -68,6 +68,7 @@ const ALLIANCE_LEVELS: AllianceLevel[] = [
 
 const PIX_KEY = '+5511965040342';
 const PIX_DISPLAY = '(11) 96504-0342';
+const PIX_CNPJ_KEY = '54.100.589/0001-29';
 const MERCHANT_NAME = 'Fraternidade Luz';
 const MERCHANT_CITY = 'Sao Paulo';
 
@@ -244,7 +245,7 @@ export default function AliancaPage() {
       <section className="px-6 pb-14 sm:pb-16">
         <div className="max-w-4xl mx-auto">
           <p className="mb-4 text-center font-inter text-base sm:text-lg text-primary/60 leading-relaxed">
-            Reprogramação para te ajudar a alimentar a fé e permanecer na aliança com Deus ∴
+            Reprogramação da prosperidade para te ajudar a alimentar a fé e permanecer na aliança com Deus ∴
           </p>
           <div className="relative w-full aspect-video rounded-2xl overflow-hidden border border-accent-gold/20 bg-black/5 shadow-md">
             <iframe
@@ -327,6 +328,41 @@ export default function AliancaPage() {
               </motion.div>
             ))}
           </div>
+        </div>
+      </section>
+
+      <section className="px-6 pb-14 sm:pb-16">
+        <div className="max-w-4xl mx-auto bg-white/70 border border-accent-gold/15 rounded-2xl p-6 sm:p-8">
+          <p className="font-inter text-sm sm:text-base text-primary/70 leading-relaxed mb-4">
+            O CNPJ também é chave PIX: <span className="font-semibold text-primary">{PIX_CNPJ_KEY}</span>
+          </p>
+          <p className="font-inter text-sm sm:text-base text-primary/70 leading-relaxed mb-5">
+            Para quem não usa PIX, pode fazer um depósito nas lotéricas.
+          </p>
+
+          <div className="bg-primary/[0.03] border border-accent-gold/15 rounded-xl px-4 py-4 mb-5">
+            <p className="font-cinzel text-sm text-accent-gold mb-2">Conta Caixa</p>
+            <p className="font-inter text-sm text-primary/75">Agência: 3880</p>
+            <p className="font-inter text-sm text-primary/75">Operação: 1288</p>
+            <p className="font-inter text-sm text-primary/75">Conta: 930732631-8</p>
+          </div>
+
+          <p className="font-inter text-sm sm:text-base text-primary/70 leading-relaxed mb-5">
+            Envie o Comprovante para a fraternidade pelo{' '}
+            <a
+              href="https://wa.me/5511965040342?text=est%C3%A1%20feito"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-accent-gold hover:text-accent-gold/80 underline underline-offset-2 transition-colors"
+            >
+              WhatsApp
+            </a>{' '}
+            para colocarmos o seu nome no Livro da Semeadura.
+          </p>
+
+          <blockquote className="font-cinzel text-sm sm:text-base text-accent-gold/90 leading-relaxed italic text-center">
+            "O Deus Altíssimo que dá a semente ao que semeia também multiplicará a vossa sementeira, e aumentará os frutos da vossa justiça; 2 Coríntios 9:10"
+          </blockquote>
         </div>
       </section>
 
@@ -418,7 +454,10 @@ export default function AliancaPage() {
                 </div>
 
                 <div className="flex items-center justify-center gap-2 bg-primary/[0.03] rounded-xl px-3 py-2.5 border border-accent-gold/15">
-                  <span className="font-inter text-xs text-primary/55 text-center">Chave PIX: {PIX_DISPLAY}</span>
+                  <div className="text-center">
+                    <p className="font-inter text-xs text-primary/55">Chave PIX celular: {PIX_DISPLAY}</p>
+                    <p className="font-inter text-[11px] text-primary/55">CNPJ chave PIX: {PIX_CNPJ_KEY}</p>
+                  </div>
                   <button
                     onClick={handleCopy}
                     className="flex items-center justify-center w-9 h-9 rounded-lg bg-accent-gold/10 hover:bg-accent-gold/20 transition-colors cursor-pointer"
@@ -453,7 +492,7 @@ export default function AliancaPage() {
               </div>
 
               <p className="text-center font-inter text-xs sm:text-sm text-primary/55 leading-relaxed">
-                mande o comprovante para nosso{' '}
+                Envie o Comprovante para a fraternidade pelo{' '}
                 <a
                   href="https://wa.me/5511965040342?text=est%C3%A1%20feito"
                   target="_blank"
@@ -462,7 +501,7 @@ export default function AliancaPage() {
                 >
                   WhatsApp
                 </a>{' '}
-                official e diga está feito
+                para colocarmos o seu nome no Livro da Semeadura.
               </p>
             </motion.div>
           </motion.div>

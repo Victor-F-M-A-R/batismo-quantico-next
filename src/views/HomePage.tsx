@@ -99,7 +99,7 @@ export default function HomePage() {
                          hover:-translate-y-1 hover:scale-[1.02]
                          transition-all duration-300 cursor-pointer backdrop-blur-sm"
             >
-              <span className="relative z-10">FAÃ‡A AQUI SUA ALIANÃ‡A COM DEUS</span>
+              <span className="relative z-10">FAÇA AQUI SUA ALIANÇA COM DEUS</span>
             </Link>
           </motion.div>
 
@@ -112,7 +112,7 @@ export default function HomePage() {
           >
             <div className="w-16 h-px bg-accent-gold/15" />
             <span className="text-accent-gold/55 font-cinzel text-[10px] tracking-[0.5em]">
-              Vâˆ´Iâˆ´Tâˆ´Râˆ´Iâˆ´Oâˆ´Lâˆ´
+              V∴I∴T∴R∴I∴O∴L∴
             </span>
             <div className="w-16 h-px bg-accent-gold/15" />
           </motion.div>
