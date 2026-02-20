@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import Link from 'next/link';
 import { motion } from 'framer-motion';
@@ -7,22 +7,22 @@ import DivineAuroraBg from '../components/hero/DivineAuroraBg';
 
 const CONCEPTS = [
   {
-    icon: '◯',
-    title: 'Consciência',
+    icon: 'â—¯',
+    title: 'ConsciÃªncia',
     description:
-      'O primeiro passo é olhar para dentro. Reconhecer as arestas, as imperfeições — e aceitar que a transformação é possível.',
+      'O primeiro passo Ã© olhar para dentro. Reconhecer as arestas, as imperfeiÃ§Ãµes â€” e aceitar que a transformaÃ§Ã£o Ã© possÃ­vel.',
   },
   {
-    icon: '◇',
-    title: 'Prática',
+    icon: 'â—‡',
+    title: 'PrÃ¡tica',
     description:
-      'Cada dia é um golpe de cinzel. A constância molda o que a intenção desenha. O trabalho é diário, silencioso e necessário.',
+      'Cada dia Ã© um golpe de cinzel. A constÃ¢ncia molda o que a intenÃ§Ã£o desenha. O trabalho Ã© diÃ¡rio, silencioso e necessÃ¡rio.',
   },
   {
-    icon: '△',
-    title: 'Elevação',
+    icon: 'â–³',
+    title: 'ElevaÃ§Ã£o',
     description:
-      'A pedra polida não é o fim — é o começo. Elevada, ela se torna parte de algo maior: a construção do templo interior.',
+      'A pedra polida nÃ£o Ã© o fim â€” Ã© o comeÃ§o. Elevada, ela se torna parte de algo maior: a construÃ§Ã£o do templo interior.',
   },
 ];
 
@@ -42,7 +42,7 @@ export default function HomePage() {
           >
             <div className="w-12 h-px bg-accent-gold/30" />
             <span className="text-accent-gold/50 text-xs font-cinzel tracking-[0.4em]">
-              ∴
+              âˆ´
             </span>
             <div className="w-12 h-px bg-accent-gold/30" />
           </motion.div>
@@ -54,9 +54,9 @@ export default function HomePage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.3 }}
           >
-            A LAPIDAÇÃO
+            DESBASTANDO
             <br />
-            <span className="text-accent-gold">DA PEDRA BRUTA</span>
+            <span className="text-accent-gold">A PEDRA BRUTA</span>
           </motion.h1>
 
           {/* Subtitle */}
@@ -66,7 +66,7 @@ export default function HomePage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
           >
-            Uma jornada de 21 dias para a consciência EU SOU.
+            Uma jornada de 21 dias para a consciÃªncia EU SOU.
           </motion.p>
 
           {/* CTA Buttons */}
@@ -99,7 +99,7 @@ export default function HomePage() {
                          hover:-translate-y-1 hover:scale-[1.02]
                          transition-all duration-300 cursor-pointer backdrop-blur-sm"
             >
-              <span className="relative z-10">FAÇA AQUI SUA ALIANÇA COM DEUS</span>
+              <span className="relative z-10">FAÃ‡A AQUI SUA ALIANÃ‡A COM DEUS</span>
             </Link>
           </motion.div>
 
@@ -112,7 +112,7 @@ export default function HomePage() {
           >
             <div className="w-16 h-px bg-accent-gold/15" />
             <span className="text-accent-gold/55 font-cinzel text-[10px] tracking-[0.5em]">
-              V∴I∴T∴R∴I∴O∴L∴
+              Vâˆ´Iâˆ´Tâˆ´Râˆ´Iâˆ´Oâˆ´Lâˆ´
             </span>
             <div className="w-16 h-px bg-accent-gold/15" />
           </motion.div>
@@ -176,10 +176,10 @@ export default function HomePage() {
       <footer className="border-t border-accent-gold-border px-6 py-8">
         <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="font-cinzel text-xs text-primary-muted/50 tracking-widest">
-            △ TEMPLO DIGITAL
+            â–³ TEMPLO DIGITAL
           </p>
           <p className="font-inter text-xs text-primary-muted/40">
-            "Conhece-te a ti mesmo e conhecerás o universo e os deuses"
+            "Conhece-te a ti mesmo e conhecerÃ¡s o universo e os deuses"
           </p>
         </div>
       </footer>

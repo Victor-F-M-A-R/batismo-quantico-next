@@ -1,9 +1,9 @@
-import type { Metadata } from 'next';
+﻿import type { Metadata } from 'next';
 import '../index.css';
 
 export const metadata: Metadata = {
-  title: 'A Lapidação da Pedra Bruta',
-  description: 'Uma jornada de 21 dias para a consciência EU SOU.',
+  title: 'Desbastando a Pedra Bruta',
+  description: 'Uma jornada de 21 dias para a consciÃªncia EU SOU.',
 };
 
 export default function RootLayout({
